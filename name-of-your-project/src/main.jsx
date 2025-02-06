@@ -12,6 +12,7 @@ const router = createBrowserRouter([
   {
     path: "/",
     element: <App></App>,
+    loader: ()=>('http://localhost:3000/addcoffe')
   },
   {
     path:"addcoffe",
